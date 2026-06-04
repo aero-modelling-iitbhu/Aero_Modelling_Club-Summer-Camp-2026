@@ -39,10 +39,10 @@ CAD tools used for modelling custom UAV airframes and performing structural anal
 
 ---
 
-### 4. KiCAD, Proteus & STM32Cube
-Essential electronics design automation (EDA) tools for circuit board design and embedded programming.
+### 4. KiCAD
+Essential electronics design automation (EDA) tools for circuit board design.
 
-👉 **[Read the KiCAD & Proteus Installation Guide](./Installations/kicad.md)**
+👉 **[Read the KiCAD Installation Guide](./Installations/kicad.md)**
 
 ---
 
