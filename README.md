@@ -12,20 +12,66 @@ Welcome to the **Aero-Modelling Club's Summer Camp 2026** — your ultimate gate
 
 Specially curated for freshers, this electrifying program will guide you through everything from drone fundamentals to advanced real-world applications. Whether you're dreaming of building, flying, or mastering autonomous systems — this camp is where it all begins.
 
-📅 The Summer Camp is distributed across **5 weeks**, each covering different domains and skill sets. So… are you ready to conquer the skies and become a true aerial innovator?
+**Join the official Summer Camp WhatsApp group:** 🔗 [https://chat.whatsapp.com/Fkf5IWUd7ntFCPZssV1bc7](https://chat.whatsapp.com/Fkf5IWUd7ntFCPZssV1bc7)
+
+📅 The Summer Camp is distributed across **5 weeks (including Installation Week)**, each covering different domains and skill sets. So… are you ready to conquer the skies and become a true aerial innovator?
 
 **Let’s take off together!** 💥🔥
 
 ---
 
-## ✈️ Week 1: How It Works?
+## 📅 Timeline & Schedule
+
+### 🔹 Week 0: Installations & Setup
+**📆 4 June – 5 June**
+
+Prepare your laptop and ground control systems with our essential software suite:
+* **OS setup:** Dual Booting Windows with Ubuntu 22.04 LTS
+* **Middleware:** ROS 2 Humble Hawksbill Installation
+* **CAD design:** SolidWorks / Fusion 360 / KiCAD
+* **Model Training:** Python 3, PyBullet, NumPy
+
+👉 **[Start Installation & Setup Here!](./Week_0/Installations/)**
+
+---
+
+### 🔹 Week 1: ROS 2
+**📆 6 June – 12 June**
+
+<p align="center">
+  <img src="https://9meters.com/wp-content/uploads/ardupilot-logo.webp" width="40%">
+</p>
+
+Get hands-on with the **brains behind autonomous drones**:
+* Intro to ROS 2, ArduPilot and PX4
+* Mission Planning & Waypoint Navigation
+* Simulations using Gazebo and QGroundControl
+
+---
+
+### 🔹 Week 2: CAD Design
+**📆 13 June – 19 June**
+
+<p align="center">
+  <img src="https://ijkenggacademy.in/wp-content/uploads/2023/08/SolidWorks-Banner.png" width="50%">
+</p>
+
+Learn how to **design your own aerial vehicles**:
+* SolidWorks & Fusion 360 for Drone Modelling
+* Structural Design & Aerodynamic Testing
+* 3D Printing & Materials
+* Design for Real-World Constraints
+
+---
+
+### 🔹 Week 3: Fundamentals of Drones & Planes
+**📆 20 June – 22 June**
 
 <p align="center">
   <img src="/img/airplane.png" width="50%">
 </p>
 
 Understand the **fundamentals of flight** — how lift is generated, how aircraft stay stable, and how they maneuver in air. Explore:
-
 * Aerodynamics & Forces of Flight
 * Aircraft Structure and Control Surfaces
 * Flight Stability & Angle of Attack
@@ -33,29 +79,14 @@ Understand the **fundamentals of flight** — how lift is generated, how aircraf
 
 ---
 
-## 💻 Week 2: Into the Software
-
-<p align="center">
-  <img src="https://9meters.com/wp-content/uploads/ardupilot-logo.webp" width="40%">
-</p>
-
-Get hands-on with the **brains behind autonomous drones**:
-
-* Intro to ArduPilot and PX4
-* Mission Planning
-* Waypoint Navigation
-* Simulations using Gazebo and QGroundControl
-
----
-
-## 🧠 Week 3: Computer Vision
+### 🔹 Week 4: Computer Vision & Automation
+**📆 23 June – 29 June**
 
 <p align="center">
   <img src="https://opencv.org/wp-content/uploads/2021/02/1_HfZmZayUqnYioPC9qTfd4A.png" width="40%">
 </p>
 
 Enable your drones to **see and think** using:
-
 * OpenCV Basics
 * Real-time Object Detection with YOLO
 * Visual Tracking & Obstacle Avoidance
@@ -63,91 +94,25 @@ Enable your drones to **see and think** using:
 
 ---
 
-## 🛠️ Week 4: How It's Made?
+## 🏆 Leaderboard & Selection Process
 
-<p align="center">
-  <img src="https://ijkenggacademy.in/wp-content/uploads/2023/08/SolidWorks-Banner.png" width="50%">
-</p>
-
-Learn how to **design your own aerial vehicles**:
-
-* SolidWorks for Drone Modelling
-* Structural Design & Aerodynamic Testing
-* 3D Printing & Materials
-* Design for Real-World Constraints
+- **Weekly Leaderboards:** At the end of every week, a leaderboard will be released tracking your progress and task completions!
+- **Interviews (Top 30):** After the 4 weeks, we will hold interviews and select the **top 30 participants** based on the leaderboards and project evaluations.
+- **Specialization Phase:** The selected 30 individuals will be offered the chance to choose **2 specific fields** of their interest to specialize in. (Details on specializations will be shared later).
+- **Final Selection:** The final Aero-Modelling Club members will be selected from this specialized group!
 
 ---
 
-## 🚀 Week 5: Specialization
+## 🌐 Connect With Us!
 
-Explore advanced domains, work on a capstone project, or dive deeper into:
+Stay updated and follow our journey:
+- 💬 **WhatsApp Group:** [Join Here](https://chat.whatsapp.com/Fkf5IWUd7ntFCPZssV1bc7?mode=gi_t)
+- 📸 **Instagram:** [@amc.iitbhu](https://www.instagram.com/amc.iitbhu/)
+- 🎥 **YouTube:** [Aero Modelling Club IIT BHU](https://www.youtube.com/@amciitbhu)
+- 📂 **Summer Camp Repository:** [GitHub Repo](https://github.com/aero-modelling-iitbhu/Aero_Modelling_Club-Summer-Camp-2026)
 
-* Swarm Drones
-* VTOL Systems
-* Autonomous Navigation Challenges
-* Industry Applications and Research
+✨ Hands-on learning, projects, mentorship, and a great opportunity to explore the Aero Modelling Club.
 
----
-
-## ⚙️ Installation Guide
-
-### 🔁 1. Dual Booting with Ubuntu 22.04
-
-<p align="center">
-  <img src="https://news.itsfoss.com/content/images/wordpress/2022/04/ubuntu-22-04-release.jpg" width="50%">
-</p>
-
-#### 📹 Video Tutorials:
-
-* [Dual Boot Ubuntu 22.04 LTS with Windows 11 (English)](https://www.youtube.com/watch?v=3O9y9_dqNxE)
-* [Dual Boot Ubuntu with Windows 11 - Hindi Guide](https://www.youtube.com/watch?v=HmqvTsDmyiE)
-
-#### 🔗 Downloads:
-
-* [Ubuntu 22.04.5 LTS ISO](https://releases.ubuntu.com/jammy/ubuntu-22.04.5-desktop-amd64.iso)
-* [Rufus (Bootable USB Tool)](https://github.com/pbatard/rufus/releases/download/v4.7/rufus-4.7.exe)
-* [OBS Studio (Optional Screen Recorder)](https://obsproject.com/kb/linux-installation)
-
----
-
-### 🤖 2. ROS2 Humble Installation
-
-<p align="center">
-  <img src="/img/ros2.png" width="50%">
-</p>
-
-ROS2 is essential for building intelligent autonomous drones.
-
-#### 📚 Resources:
-
-* [ROS2 Humble Installation - Official Docs](https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debs.html)
-* [ROS2 Installation Guide (Video 1)](https://www.youtube.com/watch?v=0aPbWsyENA8)
-* [ROS2 Installation Guide (Video 2)](https://www.youtube.com/watch?v=flT3LIIR5qo)
-
----
-
-3.Solidworks Installation
-
-<p align="center">
-  <img src="/img/solidworks.jpeg" width="50%">
-</p>
-
-* [Download link](https://iitbhuacin-my.sharepoint.com/:f:/g/personal/aryan_kumar_mec21_iitbhu_ac_in/Ep6X02My5qBElme6-oiZU1cBbAmdY0HwXmRvq2fQCty0lQ?e=voDTzG)
-* [Installation video](https://iitbhuacin-my.sharepoint.com/:v:/g/personal/raut_sahilprakash_mec23_iitbhu_ac_in/EUwY-9khU49Cn9lo58aDW-8BOCovOxdN8bpj5V0Rg2az0g?e=OgcENc&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
-
----
-
-3.Ansys Installation
-
-<p align="center">
-  <img src="/img/ansys.png" width="50%">
-</p>
-
-* [Download link](https://iitbhuacin-my.sharepoint.com/:f:/g/personal/aryan_kumar_mec21_iitbhu_ac_in/Ep6X02My5qBElme6-oiZU1cBbAmdY0HwXmRvq2fQCty0lQ?e=voDTzG)
-* [Installation video](https://iitbhuacin-my.sharepoint.com/:v:/g/personal/raut_sahilprakash_mec23_iitbhu_ac_in/EeDeo-kYG8tEi3Wm8JkbEikBpl0xCQMpk0XZfqeFucXdBw?e=qGfaUs&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
-
----
-
-📬 *For questions, support, or to connect with fellow enthusiasts, stay tuned to our WhatsApp groups and Discord channels!*
+**Explore. Connect. Grow. ✈️**
 
 ---
