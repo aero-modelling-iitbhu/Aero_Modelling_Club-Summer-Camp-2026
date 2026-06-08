@@ -21,20 +21,17 @@ The robot should:
 
 > **Note:** Don’t use AI tools! The goal is to help you learn and understand the core basics of `/cmd_vel` velocity commands on your own.
 
-<p align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/d/dc/Robot.gif" width="40%">
-</p>
-
 ---
-
+### 📹 Expected Output Video
+👉 **[Watch the Expected Output Video Here](https://drive.google.com/file/d/1VxXwG-y_3iEjAlE7l1PYLfWZexVPTnAt/view?usp=drive_link)**
 ## 📥 Submit Your Work
 
 1. Create a folder named `<YourName>_Task-3` with your Source Code, Documentation, Video, and `rqt_graph` screenshot.
 2. Compress the folder into a `.zip`.
 3. Upload the `.zip` file to **Google Drive** and set the sharing permissions to **"Anyone with the link can view"**.
-4. Submit your Google Drive link below:
+4. Submit your Google Drive link to the form below:
 
-👉 **[ PASTE YOUR GOOGLE DRIVE SUBMISSION LINK HERE ]** 👈
+📝 **[Task 3 Submission Form](https://docs.google.com/forms/d/e/1FAIpQLSfhA9GazFzopLwAI0Hv4zUwAYU9xqLHTE1O_ZtUDXKlryGiPA/viewform?usp=publish-editor)**
 
 ---
 ⬅️ **[Back: Task 2 - Drone Square Mission](./Task_2_Drone_Square.md)** | ➡️ **[Next: Bonus Task - Drone Python Launch](./Bonus_Task_Drone_Python_Launch.md)**

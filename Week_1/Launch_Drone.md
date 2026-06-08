@@ -52,7 +52,7 @@ PX4_GZ_WORLD=forest make px4_sitl gz_x500_lidar_2d
 
 When you run this command, the Gazebo simulator will open up and it will look like this:
 
-> **[SPACE FOR IMAGE: Add screenshot of Gazebo Forest World here]**
+![Gazebo Forest World](./img/droneforest.png)
 
 ---
 
@@ -89,6 +89,8 @@ socat UDP-LISTEN:14550,fork,reuseaddr UDP:192.168.64.1:14550
 Then, open QGroundControl on your Mac. Go to **Application Settings -> Comm Links -> Add**. 
 Create a new UDP link and set the IP to your UTM IP address to connect to the drone.
 
+![QGroundControl Connection](./img/Qground.png)
+
 ---
 
 ## 🗺️ 6. Creating a Surveying Mission in QGC
@@ -102,12 +104,13 @@ Let's tell the drone to autonomously map out an area!
 5. **Adjust Settings:** On the right-hand panel, you can adjust the drone's altitude, camera spacing, and flight speed.
 6. **Upload Mission:** Click the **Upload Required** button in the top right to send the flight plan directly to the simulated drone.
 7. **Fly:** Switch back to the "Fly" view, arm the drone, and slide to confirm mission execution!
+You can watch the video below for any doubts.
 
 ---
 
 ### 📹 Mission Walkthrough Video
 
-> **[SPACE FOR VIDEO: Attach Surveying Mission Video Here]**
+👉 **[Watch the Output Video Here](https://drive.google.com/file/d/1wj2By4m3M-D56KDJy6_eH8JLNnGRJtcs/view?usp=drive_link)**
 
 ---
 ⬅️ **[Back to Learning Resources](./Learning_Resources.md)**

@@ -11,10 +11,6 @@ Ready for an advanced challenge? Instead of relying on QGroundControl to manuall
 4. **Return to Launch (RTL):** After completing the square, the final command in your script must trigger the RTL flight mode so the drone lands safely where it started.
 5. **Code Comments:** Carefully comment and describe **each and everything** in your code so we know exactly how you computed the distances and triggers.
 
-<p align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/8/8f/Planar_DELTA_robot.gif" width="40%">
-</p>
-
 ---
 
 ## 📥 Submit Your Work
@@ -22,9 +18,9 @@ Ready for an advanced challenge? Instead of relying on QGroundControl to manuall
 1. Create a folder named `<YourName>_Bonus-Task` with your Source Code and Demonstration Video inside.
 2. Compress the folder into a `.zip`.
 3. Upload the `.zip` file to **Google Drive** and set the sharing permissions to **"Anyone with the link can view"**.
-4. Submit your Google Drive link below:
+4. Submit your Google Drive link to the form below:
 
-👉 **[ PASTE YOUR GOOGLE DRIVE SUBMISSION LINK HERE ]** 👈
+📝 **[Bonus Task Submission Form](https://docs.google.com/forms/d/e/1FAIpQLSckshhvY6A9TN1d7PafBKjzXw5p6fLjh59fadJH_0TFbXeSCg/viewform?usp=dialog)**
 
 ---
 ⬅️ **[Back: Task 3 - TurtleBot3 Navigation](./Task_3_TurtleBot3_Square.md)** | 🏠 **[Return to Main Repo](../README.md)**

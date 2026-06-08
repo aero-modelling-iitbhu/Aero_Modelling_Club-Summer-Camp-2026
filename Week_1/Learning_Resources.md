@@ -1,6 +1,6 @@
 # 📚 Learning Resources: Basics of ROS 2
 
-# **Robotics Summer Camp 2026**
+# **AMC Summer Camp 2026**
 
 Hope you all have completed the ROS installation! ✅ If not, view **Week 0** of the summer camp! We aim to deliver a beginner-level understanding of ROS to get you started with your projects.
 
@@ -24,10 +24,6 @@ ROS 2, the successor to ROS 1, is an open-source framework that provides tools, 
 ## 🎯 Learning Resources for ROS 2 Basics
 
 *(Note: The links below point to the official ROS 2 Humble tutorials, which provide the best and most up-to-date guidance for each topic.)*
-
-<p align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/0/00/Scara.gif" width="40%">
-</p>
 
 *   🐧 **Linux Resources (Optional)**
     *   [Ubuntu Linux Command Line Basics](https://ubuntu.com/tutorials/command-line-for-beginners)
@@ -60,19 +56,10 @@ ROS 2, the successor to ROS 1, is an open-source framework that provides tools, 
 
 ### **Always refer to Google or the ROS 2 Wiki for any confusion; they are the best resources for learning.** 💯
 
-<p align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Robot_gantry.gif" width="40%">
-</p>
-
 ### **For Basics of Python, refer to this tutorial:**
-
-<p align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/8/8f/Planar_DELTA_robot.gif" width="40%">
-</p>
-
-*   🐍 [Python Quick Tutorials](https://docs.python.org/3/tutorial/index.html)
 
 ---
 
-## **NEXT** ⏩
-*Once you have completed these modules, proceed to the tasks to apply what you have learned!*
+*Once you have completed these modules, proceed to learn how to launch the drone:*
+
+👉 **[Next: Launching Your First Simulated Drone](./Launch_Drone.md)**

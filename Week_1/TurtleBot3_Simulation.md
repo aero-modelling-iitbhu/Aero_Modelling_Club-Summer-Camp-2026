@@ -4,7 +4,7 @@
 
 TurtleBot3 is a small, affordable, programmable, ROS-based mobile robot for use in education, research, hobby, and product prototyping. The goal of TurtleBot3 is to dramatically reduce the size of the platform and lower the price without having to sacrifice its functionality and quality, while at the same time offering expandability. The TurtleBot3 can be customized in various ways depending on how you reconstruct the mechanical parts and use optional parts such as the computer and sensor. In addition, TurtleBot3 is evolved with cost-effective and small-sized SBC that is suitable for robust embedded systems, 360-degree distance sensors, and 3D printing technology.
 
-> **[SPACE FOR IMAGE: Add TurtleBot3 Image Here]**
+![TurtleBot3](./img/Turtlebot3.png)
 
 The TurtleBot3’s core technology is SLAM, Navigation, and Manipulation, making it suitable for home service robots. The TurtleBot can run SLAM (Simultaneous Localization and Mapping) algorithms to build a map and can drive around your room. Also, it can be controlled remotely from a laptop, joypad, or Android-based smartphone. The TurtleBot can also follow a person’s legs as they walk in a room. Also, the TurtleBot3 can be used as a mobile manipulator capable of manipulating an object by attaching a manipulator like OpenMANIPULATOR. The OpenMANIPULATOR has the advantage of being compatible with TurtleBot3 Waffle and Waffle Pi. Through this compatibility, it can compensate for the lack of freedom and can have greater completeness as a service robot with the SLAM and navigation capabilities that the TurtleBot3 has.
 
@@ -201,8 +201,6 @@ ros2 launch turtlebot3_gazebo turtlebot3_house.launch.py
 ```
 
 ---
-
-*Happy simulating and exploring TurtleBot3!* 🐢🚀
 
 ---
 ⬅️ **[Back to Learning Resources](./Learning_Resources.md)**

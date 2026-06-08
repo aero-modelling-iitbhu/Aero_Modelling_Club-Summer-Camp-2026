@@ -43,6 +43,8 @@ Write a ROS service node in Python that responds with a message every time it is
 
 ## Task 1.3: Turtlesim Spiral
 
+![Turtlesim Example](./img/turtlesim.png)
+
 ### 1. Problem Statement
 The objective of this task is to install and use the `turtlesim` package and `rqt` tools to prepare for upcoming tasks. Turtlesim is a lightweight simulator for learning ROS 2. It illustrates what ROS 2 does at the most basic level to give you an idea of what you will do with a real robot or a robot simulation later on.
 
@@ -67,9 +69,11 @@ The objective of this task is to install and use the `turtlesim` package and `rq
 1. Create a folder named `<YourName>_Task-1`.
 2. Place all your videos, screenshots, and `.zip` files inside, and compress the folder into a `.zip`.
 3. Upload the `.zip` file to **Google Drive** and set the sharing permissions to **"Anyone with the link can view"**.
-4. Submit your Google Drive link below:
+4. Submit your Google Drive link to the respective forms below:
 
-👉 **[ PASTE YOUR GOOGLE DRIVE SUBMISSION LINK HERE ]** 👈
+- 📝 **[Task 1.1A Submission Form](https://forms.gle/M68prYEGxKgHrnA38)**
+- 📝 **[Task 1.1B Submission Form](https://docs.google.com/forms/d/e/1FAIpQLSdscQ7079BTx7KRFdv--LLydYA1E581htcmM8tpuAcyrcqWAA/viewform?usp=publish-editor)**
+- 📝 **[Task 1.3 Submission Form](https://docs.google.com/forms/d/e/1FAIpQLScV5yRR90A47QVsMTqBOtsWA49gqGYNVMr3euNIuCLcedbKCg/viewform?usp=publish-editor)**
 
 ---
 ⬅️ **[Back: Learning Resources](./Learning_Resources.md)** | ➡️ **[Next: Task 2 - Drone Square Mission](./Task_2_Drone_Square.md)**
