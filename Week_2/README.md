@@ -101,13 +101,24 @@ XFLR5 allows you to move from 2D airfoil analysis to full 3D wing and aircraft a
 
 Now it's time to put all of this together.
 
-<!-- **Your Tasks:**
-1. **Choose Software:** Pick either SolidWorks or Fusion 360 and watch the first 3-5 videos of the provided playlist to get comfortable with the interface, sketching, and extruding.
-2. **Find an Airfoil:** Go to AirfoilTools.com and search for the **NACA 2412** airfoil (a very famous general aviation airfoil).
-3. **Get the Data:** Download the coordinate `.dat` file for the NACA 2412.
-4. **CAD Modeling:**
-   * Format the coordinate file as needed for your CAD software (TXT for Solidworks, CSV for Fusion 360).
-   * Import the curve into your CAD workspace.
-   * Extrude the airfoil shape to a length of **500 mm** to create a 3D wing section.
-5. **Bonus (Optional XFLR5 intro):** Download XFLR5, import your NACA 2412 `.dat` file, and run a Batch Analysis for a Reynolds number of 100,000 to see the Lift vs Alpha graph! -->
+**Your Tasks:**
+1. **CAD TASK:** You have to design a motor holder of a drone, you can take ideas from existing models or it may be a new design, you can assume the dimensions of arm and motor mounting holes according to yourself.
 
+**Submission link:** [Task 2.1](https://docs.google.com/forms/d/e/1FAIpQLSe03nh64q3MK5mXDnU0rWJ96UCTdimGB0ub67By7raiDl3g7A/viewform?usp=publish-editor)
+
+2. **Airfoil Analysis:** Take any three airfoils and compare their Cl,Cd,Cl/Cd in Airfoil tools.com and which of them will you recommend for a STOL(Short Take Off Landin) Aircraft.(Take Re in the range of 50k to 200k and Ncrit in the range of 4-8).
+
+**Submission link:** [Task 2.2](https://docs.google.com/forms/d/e/1FAIpQLSe24yirZRg5J476XqvlUgbTs3Evy8WxnITapcOzN6TztJ3-HQ/viewform?usp=publish-editor)
+
+
+3. **Wing Making:** Download the coordinate of the airfoil you just recommended and make a wing of span=400mm and sweep of 15 degrees.(A wing sweep angle is the angle at which an aircraft's wings are angled backward (or sometimes forward) relative to the lateral axis of the fuselage).
+
+**Submission link:** [Task 2.3](https://docs.google.com/forms/d/e/1FAIpQLSesmJseQIS6uz7xZ7GfP_BksRVup6Q79nGsPVbcWGRU10Ix4Q/viewform?usp=publish-editor)
+
+
+4. **XFLR5:** Take any three NACA airfoils and compare their Cl,Cd,Cl/Cd XFLR5. (Take Re in the range of 50k to 200k and Ncrit in the range of 4-8 and Mach number in the range of 0 to 0.5).
+
+**Submission link:** [Task 2.4](https://docs.google.com/forms/d/e/1FAIpQLSfWArKLnRsybqwEQgW-cjjYK309flMI35xnjeiBb5IkPqvKcw/viewform?usp=publish-editor)
+
+
+Note- Submit step files in 1st and 3rd part and a small report showing plots and your choosen airfoils in 2nd and 4th.
