@@ -35,9 +35,10 @@ When air flows over an airfoil, it generates aerodynamic forces:
   * *Parasite Drag:* Caused by skin friction (air rubbing against the surface) and form drag (due to the object's shape).
   * *Induced Drag:* A byproduct of lift. As high-pressure air from the bottom tries to roll over to the low-pressure top at the wingtips, it creates swirling vortices that drag the aircraft backward.
 
-**Source:**[Basic Airfoil Theory](https://airshaper.com/videos/airfoil-design-for-a-drone/kAXN3MlQxxc)
+**Source:** [Basic Airfoil Theory](https://airshaper.com/videos/airfoil-design-for-a-drone/kAXN3MlQxxc)
 
-**NACA CONVENTION:**[NACA](https://towardsdatascience.com/introduction-to-naca-airfoil-aerodynamics-in-python-72a1c3ee46b1/)
+**NACA CONVENTION:** [NACA](https://towardsdatascience.com/introduction-to-naca-airfoil-aerodynamics-in-python-72a1c3ee46b1/)
+
 ---
 
 ## 3. AirfoilTools.com
@@ -52,7 +53,7 @@ When air flows over an airfoil, it generates aerodynamic forces:
    * *Cl vs Cd:* The drag polar, showing the trade-off between Lift and Drag.
 4. **Data Export:** You can export the raw coordinates by clicking **"Send to DAT file"**.
 
-**Source:**[Airfoil tools Tutorial](https://youtu.be/Va7G5UFtbQg?si=qdgmbCXdYVWjYgRe)
+**Source:** [Airfoil tools Tutorial](https://youtu.be/Va7G5UFtbQg?si=qdgmbCXdYVWjYgRe)
 
 ---
 
@@ -70,7 +71,7 @@ To make a 3D wing, you need to bring these coordinates into your CAD software.
 4. Browse to your text file and click OK. This generates a curve.
 5. Create a sketch on the appropriate plane and use `Convert Entities` to turn the curve into a usable sketch. Extrude the sketch to create your wing!
 
-**Source:**[Wing making in Solidworks](https://youtu.be/WghUm2gDb-c?si=EnaqzlcfaJ8ow9gT)
+**Source:** [Wing making in Solidworks](https://youtu.be/WghUm2gDb-c?si=EnaqzlcfaJ8ow9gT)
 
 **In Fusion 360**
 1. Download the `.dat` file from AirfoilTools.
@@ -79,7 +80,7 @@ To make a 3D wing, you need to bring these coordinates into your CAD software.
 4. Use the resulting sketch to build your wing geometry.
 
 
-**Source:**[Wing making in Fusion 360](https://youtu.be/E2UXGXp1xfo?si=ZGt-_gyBkr-vHiyH)
+**Source:** [Wing making in Fusion 360](https://youtu.be/E2UXGXp1xfo?si=ZGt-_gyBkr-vHiyH)
 
 ---
 
@@ -93,7 +94,7 @@ XFLR5 allows you to move from 2D airfoil analysis to full 3D wing and aircraft a
 * **XFoil Direct Analysis:** This module takes your 2D airfoil and runs fluid dynamics math to calculate Lift, Drag, and Pitching Moment at various Angles of Attack. It generates the "polars" we saw on AirfoilTools.
 * **Wing and Plane Design:** You can define a 3D wing by specifying wingspan, chord length at the root and tip, and assigning the 2D airfoils you analyzed. The software then uses methodologies like the Vortex Lattice Method (VLM) or Lifting Line Theory (LLT) to calculate the lift and induced drag of the entire 3D airplane.
 
-**Source:**[XFLR5 Tutorial](https://youtu.be/q4lJGhhLEGs?si=Wn3ob8Ddx4gEkrKy)
+**Source:** [XFLR5 Tutorial](https://youtu.be/q4lJGhhLEGs?si=Wn3ob8Ddx4gEkrKy)
 ---
 
 ## 6. Week 2 Task!
