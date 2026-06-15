@@ -6,17 +6,13 @@ Welcome to Week 2! This week, we will focus on the fundamentals of Computer-Aide
 
 ## 1. CAD Basics: SolidWorks & Fusion 360
 
-Before we dive into aerospace design, you need to be comfortable using a 3D CAD software. Below are the best playlists to get you started with either SolidWorks or Fusion 360. You only need to pick **one** software to learn.
+Before we dive into aerospace design, you need to be comfortable using a 3D CAD software. Below are the best playlists to get you started with either SolidWorks or Fusion 360. You only need to pick **one** software to learn and you do not need to see all the videos of these playlist, just get familiar with the basic tools and with practice and experience you will be able to design anything.
 
 ### SolidWorks
-SolidWorks is an industry standard for mechanical design and is heavily used in the aerospace and automotive sectors.
-* **Recommended Playlist:** [SolidWorks Complete Course for Beginners by Chris Sikora](https://www.youtube.com/watch?v=6Nadj1RgT3k&list=PLROUP1bV8RERrsOG6tE3kbRo7qU4gjJ7A)
-* **Theory:** SolidWorks is a parametric, feature-based 3D modeling tool. This means you create 2D sketches and use features (like Extrude or Revolve) to turn them into 3D objects. "Parametric" means that dimensions and relations drive the geometry; if you change a dimension, the 3D model automatically updates.
+* **Playlist:** [SolidWorks Complete Course for Beginners](https://youtu.be/8lHEizPf-wY?si=WEGp87t_BrtVRkMB)
 
 ### Autodesk Fusion 360
-Fusion 360 is a cloud-based CAD/CAM/CAE tool that is incredibly popular for modern hardware development, student projects, and hobbyists due to its accessibility and integrated simulation tools.
-* **Recommended Playlist:** [Learn Autodesk Fusion in 30 Days by Product Design Online](https://www.youtube.com/playlist?list=PLrZ2zKOtC_-C4rWfapgngoe9o2-ng8ZBr)
-* **Theory:** Like SolidWorks, Fusion 360 uses a timeline and parametric modeling. It excels in top-down design, where you can design multiple parts within the same workspace (components) and easily assemble them.
+* **Playlist:** [Learn Autodesk Fusion in 30 Days by Product Design Online](https://youtube.com/playlist?list=PLrZ2zKOtC_-C4rWfapgngoe9o2-ng8ZBr&si=3qGGT3v2gE4viqPz)
 
 ---
 
@@ -39,6 +35,9 @@ When air flows over an airfoil, it generates aerodynamic forces:
   * *Parasite Drag:* Caused by skin friction (air rubbing against the surface) and form drag (due to the object's shape).
   * *Induced Drag:* A byproduct of lift. As high-pressure air from the bottom tries to roll over to the low-pressure top at the wingtips, it creates swirling vortices that drag the aircraft backward.
 
+**Source:**[Basic Airfoil Theory](https://airshaper.com/videos/airfoil-design-for-a-drone/kAXN3MlQxxc)
+
+**NACA CONVENTION:**[NACA](https://towardsdatascience.com/introduction-to-naca-airfoil-aerodynamics-in-python-72a1c3ee46b1/)
 ---
 
 ## 3. AirfoilTools.com
@@ -52,6 +51,8 @@ When air flows over an airfoil, it generates aerodynamic forces:
    * *Cl vs Alpha:* Shows how Lift Coefficient changes with Angle of Attack.
    * *Cl vs Cd:* The drag polar, showing the trade-off between Lift and Drag.
 4. **Data Export:** You can export the raw coordinates by clicking **"Send to DAT file"**.
+
+**Source:**[Airfoil tools Tutorial](https://youtu.be/Va7G5UFtbQg?si=qdgmbCXdYVWjYgRe)
 
 ---
 
@@ -69,12 +70,16 @@ To make a 3D wing, you need to bring these coordinates into your CAD software.
 4. Browse to your text file and click OK. This generates a curve.
 5. Create a sketch on the appropriate plane and use `Convert Entities` to turn the curve into a usable sketch. Extrude the sketch to create your wing!
 
-**In Fusion 360:**
-1. Fusion 360 does not natively import XYZ point files easily without add-ins.
-2. Go to the "Utilities" tab, click "Add-ins" -> "Scripts and Add-ins".
-3. Look for the pre-installed script called **ImportSplineCSV**.
-4. You will need to convert your `.dat` file to a `.csv` (Comma Separated Values) format using Excel, ensuring X, Y, and Z (0) columns are separated by commas.
-5. Run the script, select your CSV file, and Fusion will generate the airfoil spline!
+**Source:**[Wing making in Solidworks](https://youtu.be/WghUm2gDb-c?si=EnaqzlcfaJ8ow9gT)
+
+**In Fusion 360**
+1. Download the `.dat` file from AirfoilTools.
+2. Use an airfoil import add-in/script available through Fusion 360's Scripts and Add-ins menu.
+3. Generate the airfoil spline.
+4. Use the resulting sketch to build your wing geometry.
+
+
+**Source:**[Wing making in Fusion 360](https://youtu.be/E2UXGXp1xfo?si=ZGt-_gyBkr-vHiyH)
 
 ---
 
@@ -88,13 +93,14 @@ XFLR5 allows you to move from 2D airfoil analysis to full 3D wing and aircraft a
 * **XFoil Direct Analysis:** This module takes your 2D airfoil and runs fluid dynamics math to calculate Lift, Drag, and Pitching Moment at various Angles of Attack. It generates the "polars" we saw on AirfoilTools.
 * **Wing and Plane Design:** You can define a 3D wing by specifying wingspan, chord length at the root and tip, and assigning the 2D airfoils you analyzed. The software then uses methodologies like the Vortex Lattice Method (VLM) or Lifting Line Theory (LLT) to calculate the lift and induced drag of the entire 3D airplane.
 
+**Source:**[XFLR5 Tutorial](https://youtu.be/q4lJGhhLEGs?si=Wn3ob8Ddx4gEkrKy)
 ---
 
 ## 6. Week 2 Task!
 
 Now it's time to put all of this together.
 
-**Your Assignment:**
+<!-- **Your Tasks:**
 1. **Choose Software:** Pick either SolidWorks or Fusion 360 and watch the first 3-5 videos of the provided playlist to get comfortable with the interface, sketching, and extruding.
 2. **Find an Airfoil:** Go to AirfoilTools.com and search for the **NACA 2412** airfoil (a very famous general aviation airfoil).
 3. **Get the Data:** Download the coordinate `.dat` file for the NACA 2412.
@@ -102,6 +108,5 @@ Now it's time to put all of this together.
    * Format the coordinate file as needed for your CAD software (TXT for Solidworks, CSV for Fusion 360).
    * Import the curve into your CAD workspace.
    * Extrude the airfoil shape to a length of **500 mm** to create a 3D wing section.
-5. **Bonus (Optional XFLR5 intro):** Download XFLR5, import your NACA 2412 `.dat` file, and run a Batch Analysis for a Reynolds number of 100,000 to see the Lift vs Alpha graph!
+5. **Bonus (Optional XFLR5 intro):** Download XFLR5, import your NACA 2412 `.dat` file, and run a Batch Analysis for a Reynolds number of 100,000 to see the Lift vs Alpha graph! -->
 
-*Submit a screenshot of your extruded 3D wing in your CAD software!*
