@@ -21,7 +21,7 @@ system.
         - Manually controlled systems are also categorized as open loop systems.
         - Such systems can been seen as in microwaves, washing machines etc., where we set the timer and that action takes place for that certain amount of time.
         
-        ![Open loop system](./img/open_loop.png)
+        
         
     - **Closed loop Systems**
         - A control system in which the control action adjusts itself according to the output generated to achieve a certain objective.
@@ -29,7 +29,7 @@ system.
         - The feedback gives an idea about the output which is then compared with the **desired action**. the deviation in output w.r.t to desired value is **error**. The controller tries to minimize this error.
         - Such systems can be seen all around us, some are present in electric irons, geysers to maintain a fixed temperature and many more!!
         
-        ![Closed loop system](./img/closed_loop.png)
+        
 
 ## 📘 **Mathematical Modelling**
 
@@ -84,7 +84,7 @@ A system is **linear** if **each** fᵢ is a **linear function** of the states a
 
 Or in other words, linear systems can be expressed as
 
-![Linear system eq](./img/linear_eq.png)
+
 
 Where, A is a **NxN square matrix** representing the dynamics of the system. And x is the **Nx1 state vector** representing the current state of the system.
 
@@ -95,7 +95,7 @@ Non-linear dynamical systems that describe changes in variable over time may oft
 
 ### How to form equations for a system?
 
-![Forming equations](./img/forming_eqs.png)
+
 
 There are two main ways to do this in classical mechanics:
 
@@ -183,7 +183,7 @@ Well, only few systems follow Linear characteristics, few others can be approxim
 
 We’ll get to those, first we look at one simple linear system - the spring and mass system
 
-![Spring mass](./img/spring_mass.png)
+
 
 *Brings back memories…eh?*
 
@@ -191,7 +191,7 @@ The state equation for this system can be easily derived using Newton’s Laws, 
 
 Either way we arrive at the eqn.
 
-![Equation](./img/spring_eq.png)
+
 
 Note that here x represents the displacement of mass from the normal position.
 
@@ -219,7 +219,7 @@ $$
 
 hence, the equations can be written as, and as you can see.. this is a linear system.
 
-![Linear System](./img/linear_system.png)
+
 
 *(Linear equation for a spring mass system)*
 
@@ -227,7 +227,7 @@ hence, the equations can be written as, and as you can see.. this is a linear sy
 
 Now, lets move on to a simple non-linear system… that of a simple pendulum.
 
-![Simple pendulum](./img/pendulum.png)
+
 
 Deriving its equations of motion is pretty straightforward… As given below
 
@@ -331,7 +331,7 @@ $$
 
 **Now, What happens if there is any external force acting on the system?**
 
-![Pendulum force](./img/pendulum_force.png)
+
 
 ### 1) Newton's Method (Rotational Dynamics)
 
@@ -432,7 +432,7 @@ Cool, so just remember that in the above equation we have an external input to t
 
 Okay, now we need to express these equations in one last form before we start controlling the system. Just hold on for a little for while, it will be worth it when you can make your robots do this-
 
-![Robot Jump](./img/robot_jump.gif)
+
 
 # Introduction to State Space Modelling
 
@@ -442,7 +442,7 @@ In control engineering, a state-space representation is a mathematical model of 
 
 The state space equations for a linear time invariant system (LTI) system can be given as follows:
 
-![State Space Equations](./img/state_space.png)
+
 
 Here
 
@@ -488,7 +488,7 @@ Let's decode what these terms **really mean**, in a simple way:
 
 ### 🤖 Think of a Robot Arm
 
-![Robot Arm](./img/robot_arm.png)
+
 
 - Let's decode what these terms **really mean**, in a simple way:
 - The internal state (*x*(t)) — like its **position** and **velocity** at time t
@@ -520,11 +520,11 @@ After converting into first order form, these are the equations for this system 
 
 then,
 
-![Spring mass eq 1](./img/spring_mass_eq1.png)
+
 
 and you can clearly see that they can be written like this-
 
-![Spring mass eq 2](./img/spring_mass_eq2.png)
+
 
 > (You can verify the order of these respective matrices with the notations given in the definition above)
 > 
@@ -537,17 +537,17 @@ So the next obvious question is…
 
 # What to do with non-linear systems?
 
-![Non-linear systems](./img/nonlinear_systems.png)
+
 
 Most Real world systems are quite complex making them hard to be represented in linear forms, so we use certain methods to model them like one.
 
 Linear or non-linear, all systems have a relation between change of state and current state, let a non-linear system be as follows (f(x) is any non-linear function.
 
-![Non-linear function](./img/nonlinear_function.png)
+
 
 Now, the non-linear system can be linearized about certain fixed states given as
 
-![Linearized state](./img/linearized_state.png)
+
 
 Here is an example…
 
@@ -766,7 +766,7 @@ We can apply the same linearization technique explained above.
     
     The Jacobian J₁ for the A matrix of the state equation will be:
     
-    ![](https://prod-files-secure.s3.us-west-2.amazonaws.com/38308a69-41aa-485a-998e-b0dfab760099/5b5ec024-acbb-4e00-b196-97e412938fcc/eqnsst2.png)
+    
     
     Since our system has input, we also need to calculate Jacobian J₂ for the B matrix.
     
@@ -776,11 +776,11 @@ We can apply the same linearization technique explained above.
     
     The values of A matrix for each equilibrium point will be given as:
     
-    ![](https://prod-files-secure.s3.us-west-2.amazonaws.com/38308a69-41aa-485a-998e-b0dfab760099/2c7dab23-7bf9-4a80-b92f-3d6b8d2c8612/eqnsst4.png)
+    
     
     The values of B matrix for all equilibrium points will be:
     
-    ![](https://prod-files-secure.s3.us-west-2.amazonaws.com/38308a69-41aa-485a-998e-b0dfab760099/4b28a94c-4930-4cae-87f6-8b06f857b334/eqnsst5.png)
+    
     
 4. **Construct the state equation for each equilibrium point.**
     

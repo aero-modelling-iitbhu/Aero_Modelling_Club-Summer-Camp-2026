@@ -2,7 +2,7 @@
 
 # Understanding Proportional Integral Derivative (PID) Controller
 
-![PID Controller](./img/pid.png)
+
 
 **NOTE:** Make sure you have covered the Control Systems document of subpart 1 before proceeding further.
 
@@ -13,7 +13,7 @@ In case you do not want to do the reading stuffs, here’s a self explananatory 
 
 - **Proportional-integral-derivative** (PID) controllers are **widely used** in industrial systems despite the significant developments of recent years in control theory and technology.
 
-![PID Diagram](https://pbs.twimg.com/media/ENZi_ZeUwAAko5A?format=jpg&name=medium)
+
 
 - PID is an example of a **closed loop system**.
 - They **perform well** for a wide class of processes.
@@ -99,7 +99,7 @@ More mathematically PID is represented as
 
 # output =
 
-![PID Equation](https://www.scilab.org/sites/default/files/eq1_0.PNG)
+
 
 - Wanna C PID,..here it’s in action..
     1. Single motor target tracking.
