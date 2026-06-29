@@ -12,7 +12,7 @@
 
 Below are given the full non-linear dynamics of an inverted pendulum on a cart system:
 
-![Inverted Pendulum System](./img/image.png)
+![Inverted Pendulum System](../img/image.png)
 
 $$
 \dot{v} = \frac{-m^2L^2g\cos(\theta)\sin(\theta) + mL^2(mL\omega^2\sin(\theta) - \delta v) + mL^2u}{mL^2(M + m(1 - \cos(\theta)^2))}
@@ -63,7 +63,7 @@ Download this file and save it in the same directory as the above files:
 
 If you have designed everything correctly, your simulation would look like this:
 
-![Inverted Pendulum Simulation](./img/inverted_pend.mp4)
+![Inverted Pendulum Simulation](../img/inverted_pend.mp4)
 
 ---
 
