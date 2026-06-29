@@ -36,9 +36,9 @@ You can take help of MATLAB or any other software to verify your answers.
 > **Note:** In MATLAB, the function `eig(A)` returns the eigenvalues of a square matrix A.
 
 Now, download these three MATLAB files (they should be available in this repository):
-- `pendcart.m`
-- `simpend.m`
-- `drawpend.m`
+- [`pendcart.m`](./pendcart.m)
+- [`simpend.m`](./simpend.m)
+- [`drawpend.m`](./drawpend.m)
 
 Load the directory in which these files are saved into MATLAB and run `simpend.m`. 
 
@@ -53,7 +53,7 @@ This is just to prepare you and give you an intuition of the next task, where yo
 Here, you will be using the full state feedback of the above system and control the system.
 
 Download this file and save it in the same directory as the above files:
-- `pendcart_pole_placement_task1b.m`
+- [`pendcart_pole_placement_task1b.m`](./pendcart_pole_placement_task1b.m)
 
 1. In this code, fill in the A and B matrices you calculated from your above linearization.
 2. Fill in the empty matrices by following the comments in the file.
