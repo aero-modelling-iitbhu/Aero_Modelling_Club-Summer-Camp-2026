@@ -1,8 +1,8 @@
-# 🚁 Task 1: Inverted Pendulum on a Cart (Controls & Dynamics)
+# 🚁 Task 3.1: Inverted Pendulum on a Cart (Controls & Dynamics)
 
 ## Subpart-1
 
-### Task 1-A:
+### Task 3.1-A:
 
 **Prerequisites:**
 1. Follow the MATLAB installation guidelines given in Week 0. It is preferred to use the MATLAB Desktop app instead of Online, as the Online version runs very slow.
@@ -12,7 +12,7 @@
 
 Below are given the full non-linear dynamics of an inverted pendulum on a cart system:
 
-
+![Inverted Pendulum System](./img/image.png)
 
 $$
 \dot{v} = \frac{-m^2L^2g\cos(\theta)\sin(\theta) + mL^2(mL\omega^2\sin(\theta) - \delta v) + mL^2u}{mL^2(M + m(1 - \cos(\theta)^2))}
@@ -48,7 +48,7 @@ This is just to prepare you and give you an intuition of the next task, where yo
 
 ---
 
-### Task 1-B:
+### Task 3.1-B:
 
 Here, you will be using the full state feedback of the above system and control the system.
 
@@ -63,15 +63,15 @@ Download this file and save it in the same directory as the above files:
 
 If you have designed everything correctly, your simulation would look like this:
 
-
+![Inverted Pendulum Simulation](./img/inverted_pend.mp4)
 
 ---
 
 ## 📥 Submit Your Work
 
-1. Create a folder named `<YourName>_Week3_Task-1`.
-2. Inside, include your **PDF of answers** for Task 1-A (questions 1-4).
-3. Include your **modified MATLAB script** (`pendcart_pole_placement_task1b.m`) and a **video of the simulation** for Task 1-B.
+1. Create a folder named `<YourName>_Week3_Task-3.1`.
+2. Inside, include your **PDF of answers** for Task 3.1-A (questions 1-4).
+3. Include your **modified MATLAB script** (`pendcart_pole_placement_task1b.m`) and a **video of the simulation** for Task 3.1-B.
 4. Compress the folder into a `.zip`.
 5. Upload the `.zip` file to **Google Drive** and set the sharing permissions to **"Anyone with the link can view"**.
 6. Submit your Google Drive link below:
