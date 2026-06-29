@@ -76,7 +76,7 @@ If you have designed everything correctly, your simulation would look like this:
 5. Upload the `.zip` file to **Google Drive** and set the sharing permissions to **"Anyone with the link can view"**.
 6. Submit your Google Drive link below:
 
-👉 **[ INSERT TASK 3.1 GOOGLE FORM OR DRIVE LINK HERE ]** 👈
+👉 **[ Submit Task 3.1 Here (Google Form) ](https://docs.google.com/forms/d/e/1FAIpQLSdZpouvYtmp3o3XAhHnEIRef9ECHF5ytXgccm_lbi_KjHgyRA/viewform?usp=publish-editor)** 👈
 
 ---
 👉 **[Next: Proceed to Subpart 2 - PID Controller](./Learning_Resources_Subpart_2.md)**
